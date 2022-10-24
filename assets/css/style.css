@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Epilogue';
+    font-style: normal;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    background-color: aliceblue;
+}
+
+navbar{
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: #010032;
+    border-radius: 0px;
+
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+.nav-link > li{
+    float: left;
+    display: block;
+    
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+} 
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    color: white;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+p.title{
+    font-size: 4rem;
+}
+
+p.subtitle{
+    font-size: 2rem;
+}
+
+.a-center{
+    align-self: center;
+}
+
+
+.section-slider{
+    height: 770px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: #010032;
+    border-radius: 0px;
+}
+
+.section-slider > .text-container{
+    align-self: center;
+    padding: 2rem;
+}
