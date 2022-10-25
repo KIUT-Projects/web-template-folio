@@ -10,6 +10,8 @@ html{
 
 body{
     overflow-x: hidden;
+    font-family: "Epilogue", sans-serif;
+    font-style: normal;
 }
 
 .container{
@@ -69,17 +71,19 @@ section{
     display: flex;
 }
 
+.section-container > div{
+    padding: 50px;
+}
+
+
+
 p.title{
-    font-family: "Epilogue", sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 65px;
     line-height: 72px;
 }
 
 p.subtitle{
-    font-family: "Epilogue", sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 34px;
@@ -92,12 +96,8 @@ p.subtitle{
 
 .section-slider{
     height: 770px;
-    left: 0%;
-    right: 0%;
-    top: 0px;
-
     background: #010032;
-    border-radius: 0px;
+    color: #fff;
 }
 
 .section-slider > div > .section-left{
@@ -105,10 +105,8 @@ p.subtitle{
     padding: 2rem;
 }
 
-.section-slider > div > .hire-me{
-    width: 203px;
-    height: 69px;
-    top: 30px;
+.hire-me{
+    padding: 20px 50px;
     background: #FFFFFF;
     border: 2px solid #FFFFFF;
     border-radius: 32px;
@@ -117,9 +115,79 @@ p.subtitle{
     justify-content: center;
     align-items: center;
 
-    position: relative;
+    margin: 50px 0;
 }
 
 .award{
     display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.award-text{
+    padding-left: 20px;
+}
+.award-text > .title{
+    padding: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.award-text > .subtitle{
+    padding: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.section-about{
+    padding: 50px;
+    height: 770px;
+    background: #fff;
+    color: #000;
+}
+
+.section-about > div > .section-right > .title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+}
+.float-title{
+    padding: 20px;
+    padding-bottom: 100px;
+}
+.float-title > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    padding-left: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #4543E8;
+}
+.star > img{
+    margin: 5px;
+}
+.comment > p{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+}
+.user{
+    padding-top: 25px;
+}
+
+
+
+.flex{
+    display: flex !important;
+}
+.center{
+    align-items: center !important;
+}
+.no-padding{
+    margin: 0 !important;
+    padding: 0 !important;
 }
