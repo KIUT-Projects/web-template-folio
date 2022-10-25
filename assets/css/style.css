@@ -51,20 +51,38 @@ main{
 }
 
 section{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+     justify-content: space-between;
     align-items: stretch;
     align-content: center;
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: row; */
+
+    
+}
+
+.section-container{
+    width: 1280px;
+    height: 853px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
 }
 
 p.title{
-    font-size: 4rem;
+    font-family: "Epilogue", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 72px;
 }
 
 p.subtitle{
-    font-size: 2rem;
+    font-family: "Epilogue", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
 }
 
 .a-center{
@@ -82,7 +100,26 @@ p.subtitle{
     border-radius: 0px;
 }
 
-.section-slider > .text-container{
+.section-slider > div > .section-left{
     align-self: center;
     padding: 2rem;
+}
+
+.section-slider > div > .hire-me{
+    width: 203px;
+    height: 69px;
+    top: 30px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 32px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.award{
+    display: flex;
 }
