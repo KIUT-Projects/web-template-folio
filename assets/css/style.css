@@ -272,7 +272,24 @@ p.subtitle{
     line-height: 28px;
 }
 
-.section-testiominals > div{
+.service-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.service-bottom > img{
+    padding: 20px;
+}
+
+.start-project{
+    padding: 20px 80px 20px 40px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    align-self: start;
+}
+
+.section-testiominals {
     background: #D8D8EB;
     color: #000;
 }
