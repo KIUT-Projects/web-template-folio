@@ -271,3 +271,8 @@ p.subtitle{
     font-size: 18px;
     line-height: 28px;
 }
+
+.section-testiominals > div{
+    background: #D8D8EB;
+    color: #000;
+}
