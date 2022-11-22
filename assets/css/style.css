@@ -31,6 +31,9 @@ body{
 .f-white{
     filter: brightness(0) invert(1);
 }
+.p-center{
+    place-content: center !important;
+}
 
 
 .container{
@@ -107,6 +110,10 @@ p.subtitle{
     align-self: center;
 }
 
+
+.t-center{
+    text-align: center !important;
+}
 
 .section-slider{
     height: 770px;
@@ -292,4 +299,44 @@ p.subtitle{
 .section-testiominals {
     background: #D8D8EB;
     color: #000;
+}
+
+.section-process{
+    background: #ffffff;
+    color: #000;
+}
+
+.testiominal-container{
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.te-title{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 20px 0;
+}
+.te-subtitle{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.te-star > img{
+    height: 20px;
+}
+.te-pagi{
+    padding: 5px;
+}
+
+
+
+.section-footer{
+    background: #010032;
+    color: #fff;
 }
