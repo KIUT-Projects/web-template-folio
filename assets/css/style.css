@@ -15,16 +15,7 @@ body{
 }
 
 /* -------- HELPERS --------*/
-.flex{
-    display: flex !important;
-}
-.center{
-    align-items: center !important;
-}
-.no-padding{
-    margin: 0 !important;
-    padding: 0 !important;
-}
+
 .c-white{
     color: white !important;
 }
@@ -77,6 +68,8 @@ main{
 section{
     height: auto;
     padding: 100px 50px;
+    background: #ffffff;
+    color: #000;
 }
 
 .section-container{
@@ -306,6 +299,11 @@ p.subtitle{
     color: #000;
 }
 
+.section-shop{
+    background: #ffffff;
+    color: #000;
+}
+
 .testiominal-container{
     background-color: #fff;
     padding: 30px;
@@ -334,7 +332,44 @@ p.subtitle{
     padding: 5px;
 }
 
+.product-container{
+    margin: 15px;
+}
+.product-container > img{
+    width: 100%;
+    padding-bottom: 15px;
+}
 
+.blog-container{
+    padding: 30px;
+}
+
+.blog-view-post{
+    padding-left: 70px;
+}
+
+.blog-info-block{
+    margin: 0 40px;
+}
+
+.blog-info-block > .t-19{
+    padding-bottom: 22px;
+    color: #4543E8;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.blog-info-block > .t-24{
+    padding-bottom: 22px;
+}
+
+.section-blog > div > div > hr{
+    border-color: #F1F2F6;
+}
+
+.blog-info-block > .t-12{
+
+}
 
 .section-footer{
     background: #010032;
