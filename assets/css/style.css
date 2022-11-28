@@ -392,3 +392,7 @@ footer > .flex > div{
     background: #010032;
     color: #fff;
 }
+
+.work-info > .t-12{
+    line-height: 28px;
+}
