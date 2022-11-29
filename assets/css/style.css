@@ -131,6 +131,12 @@ p.subtitle{
     align-items: center;
 
     margin: 50px 0;
+
+    font-size: 18px;
+    line-height: 25px;
+}
+.hire-me > img{
+    padding-left: 15px;
 }
 
 .award{
@@ -393,6 +399,33 @@ footer > .flex > div{
     color: #fff;
 }
 
-.work-info > .t-12{
+.work-info > .t-24{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.work-info > .t-14{
     line-height: 28px;
+}
+
+.work > img{
+    width: 100%;
+}
+
+.work-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #4543E8;
+    width: 150px;
+    height: 150px;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    text-transform: uppercase;
+
+    margin-top: 90px;
 }
