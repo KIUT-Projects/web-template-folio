@@ -2,8 +2,8 @@
 
 Code by Umarov Kamoliddin ISE-51U 
 
-Author: @UzSoftic
-Mail: softuzb[at]gmail[dot]com
+> Author: @UzSoftic
+> Mail: softuzb[at]gmail[dot]com
 
 ## 🐙 Github (Source Code)
 Github: https://github.com/KIUT-Projects/web-template-folio
