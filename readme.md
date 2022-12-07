@@ -3,6 +3,7 @@
 Code by Umarov Kamoliddin ISE-51U 
 
 > Author: @UzSoftic
+>
 > Mail: softuzb[at]gmail[dot]com
 
 ## 🐙 Github (Source Code)
