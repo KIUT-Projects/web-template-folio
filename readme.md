@@ -15,7 +15,7 @@ Source: https://github.com/KIUT-Projects/web-template-folio/archive/refs/tags/v1
 Live: https://kiut-projects.github.io/web-template-folio/
 
 ## 🎨 Figma (Design)
-Figma: https://www.figma.com/file/nV3lDIShfouW4IRXv5DTIG/Web-Folio-%2B?node-id=0%3A1&t=JawVLACtixBOkB9t-0
+Figma: https://www.figma.com/file/nV3lDIShfouW4IRXv5DTIG/Web-Folio-%2B
 
 ## 🖼 Screenshots:
 ![](.github/screenshot.png)
